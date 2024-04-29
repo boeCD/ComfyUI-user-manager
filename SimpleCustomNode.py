@@ -7,7 +7,7 @@ class SimpleCustomNode:
 
     RETURN_TYPES = ("IMAGE",)
     RETURN_NAMES = ("image_out",)
-    FUNCTION = "invert"
+    FUNCTION = "inverter"
     CATEGORY = "UserManager"
 
     def invert(self, image_in):
